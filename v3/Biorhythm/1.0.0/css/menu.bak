@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/* global menu */
+ul.global_menu			{margin:8px 0 0 0;padding-right:30px;display:inline;}
+ul.global_menu li		{padding:0 5px 0 5px;margin:0 -1px 0 0;height:15px;vertical-align:top;line-height:15px;font-weight:normal;font-size:11px;color:#fff;}
+ul.global_menu a		{font-size:11px;color:#FFF;}
+ul.global_menu .global_admin {text-decoration:underline !important;}
+ul.global_menu .global_mysite {padding:0 0 0 11px;background:url(../images/sep_global.gif) left 2px no-repeat;}
+ul.global_menu .global_help {padding:0 0 0 11px;background:url(../images/sep_global.gif) left 2px no-repeat;}
+ul.global_menu .global_logout {padding:0 0 0 11px;background:url(../images/sep_global.gif) left 2px no-repeat;}
+
+/* top update module icon */
+#header .icon_update {position:absolute;z-index:100;left:318px;top:38px;height:17px;background:url(../images/bg_updt_num_mm.png) left top no-repeat;font-size:11px;color:#594134}
+#header .icon_update span {display:block;height:22px;margin-left:8px;margin-right:-10px;padding:1px 3px 0 0;background:url(../images/bg_updt_num_mm.png) right top no-repeat;line-height:normal}
+#header .icon_update strong {position:relative;left:-3px;}
+
+/* left update module icon */
+#left_subpage .icon_update {position:absolute;left:103px;top:-1px;height:17px;background:url(../images/bg_updt_num_mm.png) left top no-repeat;font-size:11px;color:#744c08}
+#left_subpage .icon_update span {display:block;height:22px;margin-left:8px;margin-right:-10px;padding:1px 3px 0 0;background:url(../images/bg_updt_num_mm.png) right top no-repeat;line-height:normal}
+#left_subpage .icon_update strong {position:relative;left:-3px;}
+
+/* main menu */
+.main_menu						{position:relative;float:left;z-index:20;clear:both;margin:0 0 0 0;}
+.main_menu .li_dashboard 		{padding-left:20px;background:url(../images/bg_main_menu_over.gif) left top repeat-x}
+.main_menu .d_board				{background:url(../images/bg_home_out.gif) no-repeat !important;padding-left:23px;}
+.main_menu a.d_board:hover		{background:url(../images/bg_home_out.gif) no-repeat !important;padding-left:23px;}
+.main_menu a.d_board_on			{background:url(../images/bg_home_on.gif) no-repeat !important;padding-left:23px;border-left:1px solid #a5cb44;border-right:1px solid #a5cb44;color:#fff;}
+.main_menu a.d_board_on:hover	{background:url(../images/bg_home_on.gif) no-repeat !important;padding-left:23px;border-left:1px solid #a5cb44;border-right:1px solid #a5cb44;color:#fff;}
+.main_menu li			{float:left}
+.main_menu 				{width:100%;height:36px;}
+.main_menu .first		{margin:1px 30px 0 0;height:35px;}
+.main_menu li a			{padding:8px 10px 10px 10px;display:block;color:#c2c3c3 ;}/* no height */
+.main_menu li a:hover	{padding:8px 10px 10px 10Px;display:block;color:#fff;}
+.main_menu li:hover		{}
+.main_menu .on .key_menu, 
+.main_menu .on .key_menu:hover 	{background:url(../images/bg_main_menu_on.gif) left top repeat-x;border-left:1px solid #a5cb44;border-right:1px solid #a5cb44;color:#fff;}
+.main_menu .others_icon {font-size:9px;}
+.main_menu .m_config	{float:right;padding:4px 0 0 0;}
+.main_menu .m_config a	{background:url(../images/bg_configuration.gif) no-repeat;padding:6px 19px 14px 23px;}
+.main_menu .m_config a:hover	{background:url(../images/bg_configuration.gif) no-repeat;padding:6px 19px 14px 23px;}
+.main_menu li.m_config:hover	{background:url();}
+/*2nd menu */
+.main_menu .second		{position:absolute;background:#fff;display:none;}
+.main_menu .second		{border:1px solid #7cac4d;padding:1px;}
+.main_menu .second li	{float:none !important;display:block;clear:both;width:112px;border-bottom:1px solid #dadcce;}/* no height */
+.main_menu .second li a			{background:#fff;padding:5px 5px 5px 3px;word-wrap:break-word; word-break:break-all;}/* change line at a long word : except FF, Opera */
+.main_menu .second li a:hover	{background:#e2eacc;padding:5px 5px 5px 3px;}
+.main_menu .second li:hover		{background:#e2eacc;}
+/* 3rd menu */
+.main_menu .third		{position:relative;margin:-25px 0 0 0;left:113px;background:#fff;display:none;z-index:100;}
+.main_menu .third		{border:1px solid #7cac4d;padding:1px;}
+.main_menu .third li a			{background:#fff;padding:5px 19px 5px 3px;white-space:nowrap;}
+.main_menu .third li a:hover	{background:#e2eacc url(none);padding:5px 19px 5px 3px;}
+/* layer show-hidden */
+.main_menu .over		{position:absolute;display:block !important;}
+/* main menu font */
+.main_menu li a	{color:#ccc;}
+.main_menu li a.d_board	{color:#ccc;}
+.main_menu .second li a			{font-size:11px;color:#444}
+.main_menu .third li a			{font-size:11px;color:#444}
+
+/* Edit menu */
+.main_menu .setting_menu span {float:left;display:inline-block;margin:4px 0 0 0;cursor:pointer;font-size:0;}
+.main_menu .setting_menu:hover {background:url(none);}
+
+.main_menu .last {border-bottom:0 !important;}
+
+
+.main_menu .key_menu {width:95px;text-align:center;} 
+
+ul.gnb_fixed_1		{width:227px !important;}
+.gnb_fixed_1	li	{width:224px !important;}
+
+.m_site {width:115px !important;background:url(../images/bg_main_menu_over.gif) left top repeat-x !important;}
+
+.m_em .key_menu	{width:130px;} /* wide 1depth menu */
+
+/* for cafe24_admin */
+/* top menu */
+.top_menu {position:absolute;float:left;left:149px;top:20px}
+.top_menu li {float:left;margin-right:2px}
+.top_menu li a {display:block;_width:1%;height:27px;padding:0;background:url(/cafe24_admin/images/bg_main_menu_top.gif) no-repeat;font-weight:bold;color:#444}
+.top_menu li a:hover {padding:0;color:#444;text-decoration:underline}
+.top_menu li a span {display:block;margin-left:12px;padding-right:11px;background:url(/cafe24_admin/images/bg_main_menu_top.gif) no-repeat 100% 0;color:#444;line-height:29px;white-space:nowrap}
+
+.top_menu li a.currunt {display:block;_width:1%;height:27px;padding:0;background:url(/cafe24_admin/images/bg_main_menu_top_over.gif) no-repeat;font-weight:bold;color:#dc4e22}
+.top_menu li a.currunt:hover {padding:0;color:#dc4e22;text-decoration:underline}
+.top_menu li a.currunt span {display:block;margin-left:12px;padding-right:11px;background:url(/cafe24_admin/images/bg_main_menu_top_over.gif) no-repeat 100% 0;color:#dc4e22;line-height:29px;white-space:nowrap}
+
+

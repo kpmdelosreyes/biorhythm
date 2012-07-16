@@ -1,0 +1,112 @@
+?@charset "utf-8";
+
+/* plugin reset */
+#pg_biorythm_holder * {padding:0; margin:0}
+#pg_biorythm_holder, #pg_biorythm_holder th, #pg_biorythm_holder td, #pg_biorythm_holder textarea, #pg_biorythm_holder h3 {font-family:tahoma, Verdana, sans-serif !important;font-size:12px;}
+#pg_biorythm_holder th, #pg_biorythm_holder td, #pg_biorythm_holder textarea {line-height:14px}
+#pg_biorythm_holder {margin:0;padding:0}
+#pg_biorythm_holder img, #pg_biorythm_holder fieldset {border:0} 
+#pg_biorythm_holder li {list-style:none;}
+#pg_biorythm_holder select, #pg_biorythm_holder input {font-family:verdana; color:#000; font-size:1.00em;outline:none;}
+#pg_biorythm_holderaddress, #pg_biorythm_holder em {font-style:normal}
+#pg_biorythm_holder button  {border:none; background:none; cursor:pointer}
+#pg_biorythm_holder hr, #pg_biorythm_holder legend {display:none}
+#pg_biorythm_holder p, #pg_biorythm_holder h1, #pg_biorythm_holder  h2, #pg_biorythm_holder h3, #pg_biorythm_holder h4, #pg_biorythm_holder h5, #pg_biorythm_holder h6, #pg_biorythm_holder form, #pg_biorythm_holder input, #pg_biorythm_holder ul, #pg_biorythm_holder li, #pg_biorythm_holder dl, #pg_biorythm_holder dt, #pg_biorythm_holder dd {margin:0; padding:0}
+#pg_biorythm_holder a img {vertical-align:top}
+#pg_biorythm_holder a:link {text-decoration:none}
+#pg_biorythm_holder a:visited {text-decoration:none}
+#pg_biorythm_holder a:hover	{text-decoration:underline}
+
+
+/* plugin container blue */
+#pg_biorythm_holder  #pg_biorythm_container {background:url(../images/biorythm_bg_gray.gif) no-repeat left top;width:260px;font-size:12px;display:inline-block}
+#pg_biorythm_holder  #pg_biorythm_container .pg_biorythm_expand {margin:0 0 0 0 !important;display:inline-block;width:260px;padding-bottom:15px;background:url(../images/biorythm_bg_expand.gif) left bottom no-repeat;}
+
+/* plugin title blue*/
+#pg_biorythm_holder  h3.pg_biorythm_title {margin:0 !important;width:auto;background:url(../images/biorythm_arrow_gray.gif) no-repeat right;padding-left:10px;padding-right:10px;font-size:12px;font-family:tahoma, geneva, sans-serif;font-weight:bold;display:inline !important;color:#fff;height:34px;line-height:34px;}
+#pg_biorythm_holder .pg_biorythm_form {margin-top:15px !important;margin-left:12px}
+
+#pg_biorythm_holder .pg_biorythm_form  p {width:243px;padding:10px 0 10px 0;border-top:1px solid #e7e7e7;display:inline-block;}
+#pg_biorythm_holder .pg_biorythm_form  label {float:left;width:70px;margin-top:2px;margin-right:5px;padding-left:10px;font:12px Arial, Helvetica, sans-serif !important;color:#333 !important;background:url(../images/biorythm_bu.gif) left no-repeat;display:inline-block}
+#pg_biorythm_holder .pg_biorythm_form  .pg_biorythm_nameborder {float:left;width:149px;height:18px;display:inline-block;}
+#pg_biorythm_holder .pg_biorythm_form  .pg_biorythm_nameborder input {width:145px;height:18px;line-height:18px;margin-left:1px;margin-right:0;font:11px Arial, Helvetica, sans-serif;color:#999;border:1px solid #ccc;}
+#pg_biorythm_holder .pg_biorythm_form  .pg_biorythm_calendarborder {float:left;width:65px;height:18px;display:inline-block;}
+#pg_biorythm_holder .pg_biorythm_form  .pg_biorythm_calendarborder  input {width:60px;height:18px;line-height:18px;margin-left:2px;margin-right:10px;font:11px Arial, Helvetica, sans-serif;color:#999;border:1px solid #ccc;}
+#pg_biorythm_holder .pg_biorythm_form  .pg_biorythm_calendaricon {float:left;margin-top:2px;margin-left:7px}
+#pg_biorythm_holder .pg_biorythm_form  .pg_biorythm_submit {float:left;margin-left:30%;width:81px;height:18px;font:11px Arial, Helvetica, sans-serif;color:#fff;background:url(../images/biorythm_btn.gif) left top no-repeat;border:none;cursor:pointer;}
+.extra {margin-top:7px !important;}
+
+/* ie quirks mode */
+
+/* \*/
+* html #pg_biorythm_holder .pg_biorythm_form  label { width:79px;}
+* html #pg_biorythm_holder .pg_biorythm_form  .pg_biorythm_nameborder {margin-left:-2px !important;padding-left:3px !important;}
+* html #pg_biorythm_holder .pg_biorythm_form  p {width:243px;padding:10px 0 8px 0;border-top:1px solid #e7e7e7;display:inline-block;}
+* html #pg_biorythm_holder .pg_biorythm_form  .pg_biorythm_calendarborder {margin-left:1px !important;}
+* html #pg_biorythm_holder .pg_biorythm_form  .pg_biorythm_calendaricon {margin-left:-2px !important}
+* html #pg_biorythm_holder .pg_biorythm_form  .pg_biorythm_nameborder input {height:20px !important;}
+* html #pg_biorythm_holder .pg_biorythm_form  .pg_biorythm_calendarborder  input  {height:20px !important;}
+/* */
+
+/* result container */
+#pg_biorythm_holder .pg_biorythm_results {display:inline-block;width:243px;margin-left:10px;word-wrap:break-word;}
+
+#pg_biorythm_holder  .pg_biorythm_calendar_content1 {position:absolute;top:119px;left:101px;z-index:5;}
+#pg_biorythm_holder  .pg_biorythm_calendar_content2 {position:absolute;top:154px;left:101px;z-index:4;}
+#pg_biorythm_holder .pg_biorythm_calendar_bg {position:absolute;float:left;width:166px;padding-top:10px;display:inline;background:url(../images/biorythm_calendar_bg.gif) left top no-repeat;}
+#pg_biorythm_holder .pg_biorythm_calendar_expand {float:left;width:166px;padding-left:8px;margin-top:10px;padding-bottom:10px;background:url(../images/biorythm_calendar_expandable.gif) left bottom no-repeat}
+#pg_biorythm_holder .pg_biorythm_calendar_close {float:right;margin-top:-6px;margin-right:5px;}
+#pg_biorythm_holder .pg_biorythm_calendar_form {margin-top:15px;display:inline;}
+#pg_biorythm_holder .pg_biorythm_calendar_year, #pg_biorythm_holder .pg_biorythm_calendar_month  {font:11px Arial, Helvetica, sans-serif;color:#666;}
+#pg_biorythm_holder .pg_biorythm_calendar_year {margin-right:1px;}
+#pg_biorythm_holder .pg_biorythm_calendar_prev {margin-left:3px;margin-right:15px}
+#pg_biorythm_holder .pg_biorythm_calendar_next {margin-left:15px}
+#pg_biorythm_holder  table.pg_biorythm_calendar {width:149px;margin-top:5px;text-align:center}
+#pg_biorythm_holder  table.pg_biorythm_calendar  .pg_biorythm_calendar_dotw td {width:19px;height:19px;font:10px Arial, Helvetica, sans-serif;color:#999;border-top:1px solid #cecece;border-bottom:1px solid #cecece;}
+#pg_biorythm_holder  table.pg_biorythm_calendar td {width:19px;height:19px;font:10px Arial, Helvetica, sans-serif;color:#333;border-bottom:1px solid #e7e7e7;}
+#pg_biorythm_holder  table.pg_biorythm_calendar td span.pg_biorythm_calendar_current {float:left;width:17px;height:17px;border:2px solid #7da8eb;line-height:18px;display:inline-block}
+
+
+#pg_biorythm_holder .pg_biorythm_results {display:inline-block;width:243px;margin-left:10px;word-wrap:break-word;}
+
+#biorythm_result {float:left;width:240px;margin:0 auto;}
+#biorythm_result1 {float:left;display:inline;width:240px;margin:0 auto;}
+
+#biorythm_result ul {float:left;display:inline;}
+#biorythm_result ul li {width:inherit;padding:5px 0 5px 0;display:inline-block;}
+#biorythm_result span img {float:left;width:25px; height:25px;}
+#biorythm_result span {float:left;width:inherit;display:block; float:left; height:25px;}
+#biorythm_result span.icon {float:left;width:35px;}
+#biorythm_result span.bio {float:left;width:100px; padding-top:3px;}
+
+#img_area img {float:left;border:1px solid #000000;background-color:#F5F5DC;margin-top:10px;display:inline;}
+#biorythm_percent {font-size:.7em;float:right;display:inline;padding:0px;margin:0px;}
+#biorythm_percent .ave {height:125px;margin-top:10px;margin-right:7px;padding:0px;}
+#biorythm_percent .ave li {height:28px;width:27px;padding:0px;margin:0px;}
+
+#physical {color:#FF0000;}
+#emotional {color:#00FF00;}
+#intellectual {color: #0000FF;}
+
+.error {margin:0 auto;width:243px;padding:2px 0 0 0;margin-bottom:-8px !important;text-align:center;font-style:oblique;font-size:10px;color: #dc4e22;display:inline-block;}
+
+/* ie quirks mode */
+
+/* \*/
+/*
+* html div.error { width:243px; margin-top:-2px !important; margin-bottom:-6px !important;}
+* html .pop_calendar ul.day_select {width:270px;margin-left:-20px;padding-top:5px;}
+* html .pop_calendar ul.day_select li.next a {margin-left:0 !important;}
+* html .year_select {font-size:10px; width:60px !important;vertical-align:top;}
+* html .month_select {font-size:10px; width:45px !important;vertical-align:top;margin-right:20px;}
+* html .pop_calendar ul.day_select li.prev a {margin-left:0;margin-right:20px;}
+* html .pop_calendar {margin-top:-75px !important;}
+*/
+/* */
+
+/* calendar */
+
+/* ie 6 fix */
+
+#pg_biorythm_owner_name {_width:130px !important;_position:relative !important;_margin-left:10px !important;}
+.extra label {_width:70px !important;}

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.display_type_table label {vertical-align:top !important;margin-top/**/: -5px; display:inline-block; }
+.display_type_settings  .display_type_nameborder {margin-top/**/: -5px;padding-bottom:/**/:20px;}
+.site_manager {width:150px !important;}
+.site_owner {width:200px !important;}
+.owner_title {padding-top:15px !important;}
+.owner_bdate {padding-top:15px !important;}
+
+/* \*/
+* html .fix {height:20px !important;}
+* html  .template_setting .template_icon			{float:left;width:222px;padding-right:0;margin-right:-15px;height:175px;padding-bottom:20px;}
+* html .display_type_nameborder {padding:10px 0 0 0;}
+* html .display_type_settings  p label {padding:10px 0 0 0;}
+* html .display_type_calendarborder {padding:10px 0 0 0;}
+* html .pop_calendar ul.day_select li.prev a {margin-left:5px;margin-right:20px; background-position:-28px top;}
+* html .pop_calendar ul.day_select li.next a {margin-left:25px; background-position:-42px top;}
+* html .pop_calendar ul.day_select {width:170px;margin-left:-2px;padding-top:5px;margin-bottom:-20px;}
+* html .pop_calendar .calendar_cont {padding:5px 5px 5px 2px;}
+* html .pop_calendar {width:180px!important;}
+* html .neccesary2	{margin-left:3px;margin-top:10px;color:#dc4e22;font-family:tahoma, sans-serif;font-size:12px;}
+* html .calendar_icon {margin-left:1px !important;}
+* html .owner_title {padding-top:20px !important;}
+* html .owner_bdate {padding-top:20px !important;}
+* html .calendar_day {font-weight:bold !important;margin-left:-2px;margin-right:-2px;}
+/* */
+
